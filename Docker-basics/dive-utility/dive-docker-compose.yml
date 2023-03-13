@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  dive:
+    image: ubuntu
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./install-dive.sh:/root/install-dive.sh
