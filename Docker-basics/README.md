@@ -48,7 +48,7 @@ sh get-docker.sh
 ```
 
 ## Как это выглядит?
-!(docker_base_schema.png)
+![docker_base_schema](docker_base_schema.png)
 
 ## Какие объекты и понятия использует Docker?
 - Container - конкретный инстанс, экземпляр приложения
@@ -63,7 +63,7 @@ sudo apt install ./dive_0.9.2_linux_amd64.deb
 ```
 
 ## Image layer
-!(docker_base_image_layer.png)
+![docker_base_image_layer](docker_base_image_layer.png)
 
 ## Базовые команды Docker
 ``` docker
